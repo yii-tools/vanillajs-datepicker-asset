@@ -23,7 +23,7 @@
   </coverage>
 
   <testsuites>
-    <testsuite name="Template">
+    <testsuite name="DatePicker-Asset">
       <directory>./tests</directory>
     </testsuite>
   </testsuites>

@@ -1,16 +1,28 @@
 <p align="center">
-    <a href="https://github.com/yii-tools/template" target="_blank">
+    <a href="https://github.com/yii-tools/vanillajs-datepicker-asset" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/121752654?s=200&v=4" height="100px">
     </a>
-    <h1 align="center">Template.</h1>
+    <h1 align="center">Asset for VanillaJs DatePicker for YiiFramework v.3.0.</h1>
     <br>
 </p>
 
+## Requirements
+
+The minimun version of PHP required by this package is PHP 8.1.
+
+For install this package, you need [composer](https://getcomposer.org/) and [npm](https://www.npmjs.com/).
+
 ## Install
 
-For use create a new repository from this template. For more information see [Creating a repository from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+Preferably install with composer:
 
-Also you can git clone this repository. For more information see [Cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+```shell
+composer require yii-tools/vanillajs-datepicker-asset
+```
+
+## Usage
+
+For use this package, read the [docs](/docs/install.md).
 
 ## Checking dependencies
 
@@ -48,12 +60,12 @@ composer run test
 
 ## CI status
 
-[![build](https://github.com/yii-tools/template/actions/workflows/build.yml/badge.svg)](https://github.com/yii-tools/template/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/yii-tools/template/branch/main/graph/badge.svg?token=MF0XUGVLYC)](https://codecov.io/gh/yii-tools/template)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyii-tools%2Ftemplate%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/yii-tools/template/main)
-[![static analysis](https://github.com/yii-tools/template/actions/workflows/static.yml/badge.svg)](https://github.com/yii-tools/template/actions/workflows/static.yml)
-[![type-coverage](https://shepherd.dev/github/yii-tools/template/coverage.svg)](https://shepherd.dev/github/yii-tools/template)
-[![StyleCI](https://github.styleci.io/repos/494495136/shield?branch=main)](https://github.styleci.io/repos/494495136?branch=main)
+[![build](https://github.com/yii-tools/vanillajs-datepicker-asset/actions/workflows/build.yml/badge.svg)](https://github.com/yii-tools/vanillajs-datepicker-asset/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/yii-tools/vanillajs-datepicker-asset/branch/main/graph/badge.svg?token=MF0XUGVLYC)](https://codecov.io/gh/yii-tools/vanillajs-datepicker-asset)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyii-tools%2Fvanillajs-datepicker-asset%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/yii-tools/vanillajs-datepicker-asset/main)
+[![static analysis](https://github.com/yii-tools/vanillajs-datepicker-asset/actions/workflows/static.yml/badge.svg)](https://github.com/yii-tools/vanillajs-datepicker-asset/actions/workflows/static.yml)
+[![type-coverage](https://shepherd.dev/github/yii-tools/vanillajs-datepicker-asset/coverage.svg)](https://shepherd.dev/github/yii-tools/vanillajs-datepicker-asset)
+[![StyleCI](https://github.styleci.io/repos/595529272/shield?branch=main)](https://github.styleci.io/repos/595529272?branch=main)
 
 ## License
 

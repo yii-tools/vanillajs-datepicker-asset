@@ -1,0 +1,8 @@
+{
+  "name": "vainilla-datepicker",
+  "version": "1.0.0",
+  "dependencies": {
+    "vanillajs-datepicker": "^1.2.0"
+  },
+  "license": "mit"
+}

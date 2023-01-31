@@ -1,15 +1,21 @@
 {
-    "name": "yii-tools/template",
+    "name": "yii-tools/vanillajs-datepicker-asset",
     "type": "library",
-    "description": "_____",
+    "description": "Asset for VanillaJs DatePicker for YiiFramework v.3.0.",
     "keywords": [
-        "_____"
+        "yii-tools",
+        "asset",
+        "vanillajs-datepicker",
+        "yii3"
     ],
     "license": "mit",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "foxy/foxy": "^1.2",
+        "yiisoft/assets": "^3.0",
+        "yiisoft/files": "^2.0"
     },
     "require-dev": {
         "maglnet/composer-require-checker": "^4.3",
@@ -19,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Template\\": "src"
+            "Yii\\DatePicker\\Asset\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Template\\Tests\\": "tests"
+            "Yii\\DatePicker\\Asset\\Tests\\": "tests"
         }
     },
     "extra": {
@@ -35,7 +41,8 @@
     "config": {
         "sort-packages": true,
         "allow-plugins": {
-            "infection/extension-installer": true
+            "infection/extension-installer": true,
+            "foxy/foxy": true
         }
     },
     "scripts": {
